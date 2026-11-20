@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "total_images": 7349,
+  "classes": 37,
+  "split_counts": {
+    "val": 736,
+    "train": 2944,
+    "test": 3669
+  },
+  "official_counts": {
+    "trainval": 3680,
+    "test": 3669
+  },
+  "masks": 7349,
+  "images_with_head_bbox": 3671,
+  "head_boxes": 3672,
+  "modes": {
+    "RGB": 7346,
+    "RGBA": 3
+  },
+  "notes": 0,
+  "unlisted_files": 45,
+  "seed": 42,
+  "val_ratio": 0.2,
+  "segmentation_labels": {
+    "0": "background",
+    "1": "pet",
+    "2": "unknown"
+  },
+  "source": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+  "note": "공식 전체 list.txt 사용. 공식 Test 보존. trainval만 품종별로 분할. 원본 수정/삭제 없음."
+}
